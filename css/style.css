@@ -1,0 +1,97 @@
+@charset "UTF-8";
+img {
+    display: block;
+    width:100%;
+}
+a img {
+    transition: all 0.2s linear;
+}
+a:hover img {
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+#wrapper {
+    width:100%;
+    margin:0 auto;
+}
+#header {
+    background-color: #fff;
+    border-bottom:2px solid #23BEAD;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width:100%;
+}
+#header ul {
+    padding:24px 60px 24px 14px;
+    background: url(../img/logo01.png) no-repeat 14px 4px;
+}
+#header li {
+    list-style-type: none;
+    float: right;
+    margin-left:20px;
+}
+#header li.htel {}
+#header li.hbtn {}
+
+.main_visual {
+    padding-top:84px;
+    background-color: #F2EDDF;
+    position: relative;
+}
+.main_visual a {
+    display: block;
+    width:498px;
+    height:69px;
+    position: absolute;
+    left:59px;
+    top:507px;
+}
+.inner {
+	width:1100px;
+	margin:0 auto;
+	position:relative;
+}
+.bgcolor1 {
+    background-color: #EFF5F5;
+}
+.obi {
+    width:100%;
+    min-width: 1100px;
+}
+.obi img {
+    width: 1100px;
+    margin:0 auto;
+}
+.obi-blue {
+    background-color: #1D88D2;
+}
+.obi-orange {
+    background-color: #FD371A;
+}
+
+.video {
+    width:720px;
+    margin: 0 auto;
+}
+.video_inner {
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+}
+.video_inner iframe{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+}
+
+.cvbtn {
+    padding:80px 0;
+}
+.cvbtn a {
+    display: block;
+    width:720px;
+    margin:0 auto;
+}

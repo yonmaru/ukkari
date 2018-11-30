@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* スマートフォン用CSS */
+
+.hidden-sp {
+	display:none !important;
+}
+.hidden-pc {
+	display: inherit !important;
+}
+
+#wrapper {
+    width:100%;
+    margin:0 auto;
+}
+#header ul {
+    padding:2.5% 2%;
+    background: url(../img/logo01.png) no-repeat 2% center;
+    background-size: 7.5%;
+}
+#header li {
+    margin-left:2.5%;
+    width:37.5%;
+}
+.main_visual {
+    padding-top:12%;
+}
+.main_visual a {
+    width:61.25%;
+    height: auto;
+    left:4%;
+    top:82.5%;
+}
+.inner {
+	width:100%;
+}
+.obi {
+    min-width: auto;
+}
+.obi img {
+    width: 100%;
+}
+
+.video {
+    width:92%;
+    margin: 0 auto;
+}
+
+.cvbtn {
+    padding:9% 0;
+}
+.cvbtn a {
+    width:77.5%;
+}
