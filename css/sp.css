@@ -34,10 +34,11 @@
 	width:100%;
 }
 .obi {
+    width:100% !important;
     min-width: auto;
 }
 .obi img {
-    width: 100%;
+    width: 100% !important;
 }
 
 .video {
@@ -50,4 +51,8 @@
 }
 .cvbtn a {
     width:77.5%;
+}
+
+#footer .copyright {
+    font-size:3vw;
 }
